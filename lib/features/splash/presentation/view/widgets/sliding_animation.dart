@@ -18,6 +18,9 @@ class SlidingAnimation extends StatelessWidget {
           return SlideTransition(
             position: animation,
             child: const Text(
+              style: TextStyle(
+                color: Colors.white,
+              ),
               'Discover the world',
             ),
           );

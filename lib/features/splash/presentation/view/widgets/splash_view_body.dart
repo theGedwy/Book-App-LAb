@@ -1,4 +1,4 @@
-import 'package:bookly_app/constant.dart';
+import 'package:bookly_app/core/utils/assets.dart';
 import 'package:bookly_app/features/home/presentation/view/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
@@ -27,7 +27,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
         .animate(animationController);
     animationController.forward();
     Future.delayed(
-      const Duration(milliseconds: 2100),
+      const Duration(milliseconds: 2200),
       () {
         Get.to(() => const HomeView(),
             transition: Transition.rightToLeft,
